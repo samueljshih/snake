@@ -1,4 +1,14 @@
 #myCanvas {
   background: lightblue;
   border: 1px solid black;
+  margin: 0 auto;
+}
+
+.mainContainer {
+  text-align: center;
+}
+
+.logo {
+  font-size: 60px;
+  color: blueviolet;
 }

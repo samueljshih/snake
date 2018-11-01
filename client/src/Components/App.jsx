@@ -58,9 +58,9 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Game Time</h1>
-        <canvas id="myCanvas" ref="canvas" width={800} height={800} />
+      <div className="mainContainer">
+        <h1 className="logo">Game Time</h1>
+        <canvas id="myCanvas" ref="canvas" width={700} height={700} />
       </div>
     );
   }
